@@ -11,13 +11,13 @@ TODO
 
 ## Exercises
 
+> NOTE: The supporting materials for these exercises are in `samples/part2`
+
 In this set of exercises, you will explore and implement a minimal subset
 of the [MessagePack][] binary serialization format. By doing so, you'll exercise
 many of the same tools and techniques covered in the "Working with binary file
 formats" article while also familiarizing yourself with a fast and efficient
 alternative to JSON for data serialization.
-
-> NOTE: The supporting materials for these exercises are in `samples/part2`
 
 **STEP 1:** The `example.msg` file contains a collection of key-value pairs 
 encoded as a MessagePack `fixmap`. Using the [MessagePack spec][spec] and a hex dump
