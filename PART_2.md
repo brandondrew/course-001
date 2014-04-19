@@ -37,8 +37,8 @@ uncover the details about its keys and values.
 encoded in MessagePack format and converts it to an equivalent primitive 
 Ruby object. The `packer.rb` file contains a stubbed out method for you to
 implement, as well as a simple test. You are only expected to implement enough
-of MessagePack's functionality to process the `example.msg` file, and it only
-uses a small subset of the number of types available in MessagePack.
+of MessagePack's functionality to process the `example.msg`, 
+small subset of the types available in MessagePack.
 
 **STEP 3:** Implement the `Unpacker.pack` method, which takes a primitive Ruby
 object and converts it into a byte array in MessagePack format. You'll find
