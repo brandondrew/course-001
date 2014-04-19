@@ -44,11 +44,11 @@ small subset of the types available in MessagePack.
 object and converts it into a byte array in MessagePack format. You'll find
 a stub method and test for this in `unpacker.rb`. As in STEP 2, you're only
 expected to convert the limited set of types used in the `example.msg` file, you
-do not need to write a converter for all Ruby formats
+do not need to write a converter for all Ruby formats.
 
 **STEP 4:** Using the extension type interface provided by MessagePack, revise
 `Packer.pack` and `Unpacker.unpack` to support encoding and decoding of Ruby
-symbol objects as an application-specific type. See `extended_messages.rb`
+symbols as an application-specific type. See `extended_messages.rb`
 for a test case that covers this scenario.
 
 [MessagePack]: http://msgpack.org/
