@@ -11,7 +11,7 @@ TODO
 
 ## Exercises
 
-In this set of exercises, we will be exploring and implementing a minimal subset
+In this set of exercises, you will explore and implement a minimal subset
 of the [MessagePack][] binary serialization format. By doing so, you'll exercise
 many of the same tools and techniques covered in the "Working with binary file
 formats article" while also familiarizing yourself with a fast and efficient
