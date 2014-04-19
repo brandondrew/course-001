@@ -22,8 +22,8 @@ alternative to JSON for data serialization.
 **STEP 1:** The `example.msg` file contains a collection of key-value pairs 
 encoded as a MessagePack `fixmap`. Using the [MessagePack spec][spec] and a hex dump
 utility (i.e. `xxd` or something similar), examine the contents 
-of the file and see if you discover the following details without
-writing a program to process the file:
+of the file and see if you can discover the following details
+about the stored data:
 
 * The size of the map (i.e. the number of key-value pairs)
 * The human readable ASCII representation for each of the keys (all of which are encoded with the `fixstr` type)
